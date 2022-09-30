@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+* {
+    font-family: 'Silkscreen', cursive;
+    font-size: 22px;
+    text-align: center;
+
+}
+
+body {
+    background-image: linear-gradient(to bottom right,#3B4CCA, #FFDE00);
+
+}
+
+section {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.vermell,
+.blanc {
+    width: 600px;
+    height: 300px;
+    border: solid black 25px;
+    -webkit-box-shadow: 3px 28px 126px 45px rgba(0,0,0,0.28);
+    -moz-box-shadow: 3px 28px 126px 45px rgba(0,0,0,0.28);
+    box-shadow: 3px 28px 126px 45px rgba(0,0,0,0.28);
+}
+
+.vermell {
+
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    background-color: #FF0000;
+}
+
+.blanc {
+
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    background-color: white;
+    display: flex;
+    align-content: bottom;
+    justify-content: center;
+    padding: 0%;
+}
+
+input {
+    background-color: white;
+    border: solid black 25px;
+    border-radius: 50%;
+    width: 200px;
+    aspect-ratio: 1;
+    position: absolute;
+}
+
+ul {
+    position: absolute;
+bottom: 30px;
+padding: 0px;
+}
+
+li{
+    list-style: none;
+    margin: 0px;
+    font-size: 100px;
+}
+
+.creat {
+    display: flex;
+    flex-direction: column;
+}
+
+.creat img {
+    height: 140px;
+    aspect-ratio: 1;
+}
+
+p {
+    margin: 0px;
+}
